@@ -16,7 +16,7 @@ Next, click 'Customise' in the 'Machine type' tab to config your VM. I usually s
 <p align="center">
   <img src="./imgs/machineType.png" width="450" title="hover text">
 </p>
-As for the boot disk, you can select ‘Ubuntu 16.04 LTS’ here with at least 30 GB hard drive (a 100 GB SSD boot disk is recommended, and it will not result in much extra cost). Plus, remenber to allow http/https traffic in the fireware tab.
+As for the boot disk, you can select ‘Ubuntu 16.04 LTS’ here with at least 30 GB hard drive (a 100 GB SSD boot disk is recommended, and it will not result in much extra cost). Plus, remenber to allow http/https traffic in the firewall tab.
 <p align="center">
   <img src="./imgs/bootDisk.png" width="450" title="hover text">
 </p>
