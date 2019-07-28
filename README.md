@@ -99,7 +99,10 @@ Anaconda provides an easy installation of tensorflow. The download link of follo
 ```
 wget https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh 
 bash Anaconda3-2018.12-Linux-x86_64.sh
-add conda to path: export PATH=~/anaconda3/bin:$PATH
+```
+Add conda to path:
+```
+export PATH=~/anaconda3/bin:$PATH
 ```
 
 ### Install tensorflow GPU version vis Anaconda
