@@ -1,5 +1,5 @@
 # Set up tensorflow with GPU on Google Cloud Platform
-First of all, you should have a google account and sign up Google Cloud Platform (GCP), .
+First of all, you should have a google account and sign up Google Cloud Platform (GCP). Note that if you do not need to train your model for some time. You can stop your instance to pause the charging. You can alway start the instance as needed, and everything in the instance will not change.
 
 # Create compute engine instance on GCP
 First, you shall create a compute engin in the GCP. Click 'Compute Engine' in the menu, then click on 'VM instances'.
@@ -105,19 +105,22 @@ Add conda to path:
 export PATH=~/anaconda3/bin:$PATH
 ```
 
-### Install tensorflow GPU version vis Anaconda
+### Install tensorflow GPU version via Anaconda
 Note that 'tfgpu' in the following code is the name of environment, you can change it to anything as you like.
 ```
 conda create -n tfgpu tensorflow-gpu
 conda activate tfgpu
 ```
 
-## Tips for use
+#### Tips for use
 Every time you connect to the VM, you shall run the tfgpu virtual envirment to use the tensorflow:
 ```
 conda activate tfgpu
 ```
-If you do not need to train your model for some time. You can stop your instance to pause the charging. You can alway start the instance as needed, and everything in the instance will not change.
+
+### Install Pytorch
+You can find the code for installation on [https://pytorch.org/]
+
 
 ## (Optional) other interesting packages that may help you
 ### htop
