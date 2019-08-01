@@ -118,9 +118,16 @@ Every time you connect to the VM, you shall run the tfgpu virtual envirment to u
 conda activate tfgpu
 ```
 
-### Install Pytorch
-You can find the code for installation on [https://pytorch.org/]
+### Install PyTorch
+You can find the code for installation on [https://pytorch.org/]. We select 'Linux', 'Conda', 'Python 3.7', ''CUDA 9.0 here. 
+<p align="center">
+  <img src="./imgs/pytorch.PNG" width="450" title="Create compute engine">
+</p>
 
+Then you can run the following code to install PyTorch in your terminal (You may also install it in conda virtual environment if you like).
+```
+conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+```
 
 ## (Optional) other interesting packages that may help you
 ### htop
