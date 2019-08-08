@@ -145,5 +145,5 @@ conda install scikit-learn
 ### progress
 It should be a built-in function in your Python. Nevertheless, sometimes you may not be able to import it. Install within conda virtual environment:
 ```
-conda install conda-forge progress
+conda install -c conda-forge progress
 ```
