@@ -78,6 +78,31 @@ Sun Jul 28 hh:mm:ss 2019
 +-----------------------------------------------------------------------------+
 ```
 
+Or, if you have muliple GPUs, you will see somthing like following:
+```
+yourUserName@instance-1:~$ nvidia-smi
+Tue Aug 13 hh:mm:ss 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.67       Driver Version: 418.67       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            Off  | 00000000:00:04.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |      0MiB /  7611MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            Off  | 00000000:00:05.0 Off |                    0 |
+| N/A   36C    P0    23W /  75W |      0MiB /  7611MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```
+
 ### Install cudnn
 ```
 wget https://s3.amazonaws.com/open-source-william-falcon/cudnn-9.0-linux-x64-v7.3.1.20.tgz
