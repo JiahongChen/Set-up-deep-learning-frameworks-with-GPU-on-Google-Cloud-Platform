@@ -172,3 +172,13 @@ It should be a built-in function in your Python. Nevertheless, sometimes you may
 ```
 conda install -c conda-forge progress
 ```
+
+### python-mnist
+```python-mnist``` is an usefull tool to read the MNIST dataset. It can be installed by:
+```
+pip install python-mnist
+```
+The sample code for using this package can be find at [https://github.com/sorki/python-mnist]
+
+Sometimes you may not be able to import mnist package after the installation. This due to the conflict between ```python-mnist``` and ```mnist```. You can simply uninstall the ```mnist``` package to solve the problem. 
+[ref: https://stackoverflow.com/a/46781599]
