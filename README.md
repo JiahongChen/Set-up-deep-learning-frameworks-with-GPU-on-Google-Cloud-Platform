@@ -58,7 +58,7 @@ sudo apt-get update
 sudo apt-get install cuda-9-0
 ```
 
-Last, you can check if Nvidia driver is correctly installed. Type 'nvidia-smi' in terminal, and you shall see something similar:
+Last, you can check if Nvidia driver is correctly installed. Type 'nvidia-smi' in terminal, and you shall see something similar (remember to reboot is the command cannot be found):
 ```
 yourUserName@instance-1:~$ nvidia-smi
 Sun Jul 28 hh:mm:ss 2019  
@@ -104,6 +104,8 @@ Tue Aug 13 hh:mm:ss 2019
 |  No running processes found                                                 |
 +-----------------------------------------------------------------------------+
 ```
+
+
 
 ### Install cudnn
 ```
