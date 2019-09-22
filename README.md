@@ -25,6 +25,8 @@ Last, click 'create' and you are good to go. You can then connect to your VM via
 
 # Set up environment for tenserflow GPU in your VM
 Now, after creating the cloud computing VM, you can install nesscary packages to run your program.
+
+NOTE: if you are setting up the environment on your PC, make sure to upgrade dGPU drivers in ''System Settings-->Software & Updates--> Additional Drivers'' by selecting 'Using NVIDIA binary driver-version xxx.xx form nvidia-xxx'.
 ## Install drivers
 ### Update linux packages
 ``` bash
