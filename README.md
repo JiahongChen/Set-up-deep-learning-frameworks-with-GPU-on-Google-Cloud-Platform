@@ -1,4 +1,4 @@
-# Set up tensorflow with GPU on Google Cloud Platform
+# Set up TensorFlow/Pytorch with GPU on Google Cloud Platform
 First of all, you should have a google account and sign up Google Cloud Platform (GCP). Note that if you do not need to train your model for some time. You can stop your instance to pause the charging. You can alway start the instance as needed, and everything in the instance will not change.
 
 # Create compute engine instance on GCP
