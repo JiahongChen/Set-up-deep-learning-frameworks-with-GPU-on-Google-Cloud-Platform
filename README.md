@@ -12,7 +12,7 @@ Next, you can click ‘Create new instance’ to create new instance. Here, you 
   <img src="./imgs/createVM.png" width="450" title="hover text">
 </p>
 
-Next, click 'Customise' in the 'Machine type' tab to config your VM. I usually select 2 core CPU, 13 GB memory and 1 NVIDIA Tesla K80.
+Next, click 'Customise' in the 'Machine type' tab to config your VM. I usually select 2 core CPU, 13 GB memory and 1 NVIDIA Tesla K80. You can also select multiple GPUs here to run large models (remember to request the limit of number of GPUs in the corresponding server zone).
 <p align="center">
   <img src="./imgs/machineType.png" width="450" title="hover text">
 </p>
